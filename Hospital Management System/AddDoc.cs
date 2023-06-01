@@ -12,26 +12,30 @@ using System.Windows.Forms;
 
 namespace Hospital_Management_System
 {
-    public partial class Patientlogin : Form
+    public partial class AddDoc : Form
     {
-        public Patientlogin()
+        public AddDoc()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             string cs = ConfigurationManager.ConnectionStrings["AAZ"].ConnectionString;
             SqlConnection con = new SqlConnection(cs);
             con.Open();
-            string querry = "Select * from Patients where patient_id=@did and ppass=@dpas";
+            string querry = "insert into Doctors values (@did,@dname,@special,@cn,@em,@dadress,@cnic,@dpass)";
             SqlCommand cmd = new SqlCommand(querry, con);
-            cmd.Parameters.AddWithValue("@did", textBox1.Text);
-            cmd.Parameters.AddWithValue("@dpas", textBox2.Text);
-
-            SqlDataReader rd = cmd.ExecuteReader();
-            if (rd.HasRows)
+            cmd.Parameters.AddWithValue("@did", Convert.ToInt32(id.Text));
+            cmd.Parameters.AddWithValue("@dname", name.Text);
+            cmd.Parameters.AddWithValue("@special", specialization.Text);
+            cmd.Parameters.AddWithValue("@cn", contactno.Text);
+            cmd.Parameters.AddWithValue("@em", email.Text);
+            cmd.Parameters.AddWithValue("@dadress", address.Text);
+            cmd.Parameters.AddWithValue("@cnic", cnic.Text);
+            cmd.Parameters.AddWithValue("@dpass", password.Text);
+            int a = cmd.ExecuteNonQuery();
+            if (a>0)
             {
                 MessageBox.Show("Success");
                 con.Close();
@@ -42,20 +46,8 @@ namespace Hospital_Management_System
                 con.Close();
             }
 
-        }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            MainFirst mf = new MainFirst();
-            this.Hide();
-            mf.Show();
-        }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            patientsignup ps = new patientsignup();
-            this.Hide();
-            ps.Show();
         }
     }
 }

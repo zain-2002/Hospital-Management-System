@@ -48,11 +48,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDoc.Designer.cs">
+      <DependentUpon>AddDoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Adminlogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Adminlogin.Designer.cs">
       <DependentUpon>Adminlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminOptions.Designer.cs">
+      <DependentUpon>adminOptions.cs</DependentUpon>
     </Compile>
     <Compile Include="doctor_login.cs">
       <SubType>Form</SubType>
@@ -83,6 +95,12 @@
     </Compile>
     <Compile Include="Patientlogin.Designer.cs">
       <DependentUpon>Patientlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="patientsignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="patientsignup.Designer.cs">
+      <DependentUpon>patientsignup.cs</DependentUpon>
     </Compile>
     <Compile Include="Test_Results.cs">
       <SubType>Form</SubType>
@@ -140,8 +158,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddDoc.resx">
+      <DependentUpon>AddDoc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Adminlogin.resx">
       <DependentUpon>Adminlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminOptions.resx">
+      <DependentUpon>adminOptions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AdminSignup.resx">
       <DependentUpon>AdminSignup.cs</DependentUpon>
@@ -154,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Patientlogin.resx">
       <DependentUpon>Patientlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="patientsignup.resx">
+      <DependentUpon>patientsignup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
