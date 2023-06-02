@@ -54,5 +54,7 @@ namespace Hospital_Management_System
             this.Hide();
             mf.Show();
         }
+
+       
     }
 }
