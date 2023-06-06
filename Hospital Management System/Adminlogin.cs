@@ -38,9 +38,6 @@ namespace Hospital_Management_System
             {
                 MessageBox.Show("Success");
                 con.Close();
-                adminOptions ao = new adminOptions();
-                this.Hide();
-                ao.Show();
             }
             else
             {
@@ -57,7 +54,5 @@ namespace Hospital_Management_System
             this.Hide();
             mf.Show();
         }
-
-       
     }
 }

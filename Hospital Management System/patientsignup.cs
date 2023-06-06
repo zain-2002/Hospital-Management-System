@@ -6,7 +6,6 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
-using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -25,23 +24,19 @@ namespace Hospital_Management_System
             string cs = ConfigurationManager.ConnectionStrings["AAZ"].ConnectionString;
             SqlConnection con = new SqlConnection(cs);
             con.Open();
-            string querry = "insert into patients (patient_id,pname,ppass,gmail,contact_number,gender,date_of_birth,paddress) values (@id,@username,@pass,@email,@cn,@gender,@dob,@paddress)";
+            string querry = "insert into patients (patient_id,pname,ppass,gmail,contact_number) values (@id,@username,@pass,@email,@cn)";
             SqlCommand cmd = new SqlCommand(querry, con);
             cmd.Parameters.AddWithValue("@id", id.Text);
-            cmd.Parameters.AddWithValue("@username", patientname.Text);
-            cmd.Parameters.AddWithValue("@pass", patientpassword.Text);
-            cmd.Parameters.AddWithValue("@email", email.Text);
-            cmd.Parameters.AddWithValue("@cn", contactno.Text);
-            cmd.Parameters.AddWithValue("@gender", genderbox.Text);
-            cmd.Parameters.AddWithValue("@dob", dateTimePicker1.Value.Date);
-            cmd.Parameters.AddWithValue("@paddress", address.Text);
-           
+            cmd.Parameters.AddWithValue("@username", textBox1.Text);
+            cmd.Parameters.AddWithValue("@pass", textBox2.Text);
+            cmd.Parameters.AddWithValue("@email", textBox4.Text);
+            cmd.Parameters.AddWithValue("@cn", textBox5.Text);
 
             int a = cmd.ExecuteNonQuery();
             if (a > 0)
             {
                 MessageBox.Show("Success");
-                Patientlogin adminlogin = new Patientlogin();
+                Adminlogin adminlogin = new Adminlogin();
                 this.Hide();
                 adminlogin.Show();
                 con.Close();
@@ -59,7 +54,5 @@ namespace Hospital_Management_System
             this.Hide();
             pl.Show();
         }
-
-      
     }
 }

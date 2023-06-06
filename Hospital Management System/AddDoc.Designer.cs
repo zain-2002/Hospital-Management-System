@@ -47,7 +47,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.cnic = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.departmentid = new System.Windows.Forms.TextBox();
+            this.departmentname = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button2
@@ -58,7 +58,6 @@
             this.button2.TabIndex = 27;
             this.button2.Text = "Back";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // id
             // 
@@ -66,7 +65,6 @@
             this.id.Name = "id";
             this.id.Size = new System.Drawing.Size(100, 20);
             this.id.TabIndex = 26;
-            this.id.TextChanged += new System.EventHandler(this.id_TextChanged);
             // 
             // label6
             // 
@@ -76,7 +74,6 @@
             this.label6.Size = new System.Drawing.Size(22, 13);
             this.label6.TabIndex = 25;
             this.label6.Text = "Id :";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // button1
             // 
@@ -96,7 +93,6 @@
             this.label5.Size = new System.Drawing.Size(67, 13);
             this.label5.TabIndex = 23;
             this.label5.Text = "Contact No :";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // contactno
             // 
@@ -104,7 +100,6 @@
             this.contactno.Name = "contactno";
             this.contactno.Size = new System.Drawing.Size(100, 20);
             this.contactno.TabIndex = 22;
-            this.contactno.TextChanged += new System.EventHandler(this.contactno_TextChanged);
             // 
             // email
             // 
@@ -112,7 +107,6 @@
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(100, 20);
             this.email.TabIndex = 21;
-            this.email.TextChanged += new System.EventHandler(this.email_TextChanged);
             // 
             // label4
             // 
@@ -122,7 +116,6 @@
             this.label4.Size = new System.Drawing.Size(38, 13);
             this.label4.TabIndex = 20;
             this.label4.Text = "Email :";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // specialization
             // 
@@ -130,7 +123,6 @@
             this.specialization.Name = "specialization";
             this.specialization.Size = new System.Drawing.Size(100, 20);
             this.specialization.TabIndex = 19;
-            this.specialization.TextChanged += new System.EventHandler(this.specialization_TextChanged);
             // 
             // label3
             // 
@@ -140,7 +132,6 @@
             this.label3.Size = new System.Drawing.Size(78, 13);
             this.label3.TabIndex = 18;
             this.label3.Text = "Specialization :";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // password
             // 
@@ -148,7 +139,6 @@
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(100, 20);
             this.password.TabIndex = 17;
-            this.password.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
             // label2
             // 
@@ -158,7 +148,6 @@
             this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 16;
             this.label2.Text = "Password :";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // name
             // 
@@ -166,7 +155,6 @@
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(100, 20);
             this.name.TabIndex = 15;
-            this.name.TextChanged += new System.EventHandler(this.name_TextChanged);
             // 
             // label1
             // 
@@ -176,7 +164,6 @@
             this.label1.Size = new System.Drawing.Size(39, 13);
             this.label1.TabIndex = 14;
             this.label1.Text = "name :";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label7
             // 
@@ -186,7 +173,6 @@
             this.label7.Size = new System.Drawing.Size(51, 13);
             this.label7.TabIndex = 28;
             this.label7.Text = "Address :";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // address
             // 
@@ -195,7 +181,6 @@
             this.address.Name = "address";
             this.address.Size = new System.Drawing.Size(287, 52);
             this.address.TabIndex = 29;
-            this.address.TextChanged += new System.EventHandler(this.address_TextChanged);
             // 
             // label8
             // 
@@ -205,7 +190,6 @@
             this.label8.Size = new System.Drawing.Size(37, 13);
             this.label8.TabIndex = 30;
             this.label8.Text = "Cnic  :";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // cnic
             // 
@@ -213,32 +197,29 @@
             this.cnic.Name = "cnic";
             this.cnic.Size = new System.Drawing.Size(188, 20);
             this.cnic.TabIndex = 31;
-            this.cnic.TextChanged += new System.EventHandler(this.cnic_TextChanged);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(308, 164);
+            this.label9.Location = new System.Drawing.Point(297, 164);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(79, 13);
+            this.label9.Size = new System.Drawing.Size(99, 13);
             this.label9.TabIndex = 32;
-            this.label9.Text = "Department ID:";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.label9.Text = "Department Name :";
             // 
-            // departmentid
+            // departmentname
             // 
-            this.departmentid.Location = new System.Drawing.Point(415, 161);
-            this.departmentid.Name = "departmentid";
-            this.departmentid.Size = new System.Drawing.Size(173, 20);
-            this.departmentid.TabIndex = 33;
-            this.departmentid.TextChanged += new System.EventHandler(this.departmentid_TextChanged);
+            this.departmentname.Location = new System.Drawing.Point(415, 161);
+            this.departmentname.Name = "departmentname";
+            this.departmentname.Size = new System.Drawing.Size(173, 20);
+            this.departmentname.TabIndex = 33;
             // 
             // AddDoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(834, 338);
-            this.Controls.Add(this.departmentid);
+            this.Controls.Add(this.departmentname);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.cnic);
             this.Controls.Add(this.label8);
@@ -286,6 +267,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox cnic;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox departmentid;
+        private System.Windows.Forms.TextBox departmentname;
     }
 }
