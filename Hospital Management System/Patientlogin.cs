@@ -14,6 +14,7 @@ namespace Hospital_Management_System
 {
     public partial class Patientlogin : Form
     {
+        public static int patientid=0;
         public Patientlogin()
         {
             InitializeComponent();
@@ -27,14 +28,20 @@ namespace Hospital_Management_System
             con.Open();
             string querry = "Select * from Patients where patient_id=@did and ppass=@dpas";
             SqlCommand cmd = new SqlCommand(querry, con);
-            cmd.Parameters.AddWithValue("@did", textBox1.Text);
-            cmd.Parameters.AddWithValue("@dpas", textBox2.Text);
+            cmd.Parameters.AddWithValue("@did", pid.Text);
+            cmd.Parameters.AddWithValue("@dpas", ppas.Text);
 
             SqlDataReader rd = cmd.ExecuteReader();
             if (rd.HasRows)
             {
                 MessageBox.Show("Success");
                 con.Close();
+                patientid =Convert.ToInt32(pid.Text);
+                patientchoice po=new patientchoice();
+                this.Hide();   
+                
+                po.Show();  
+
             }
             else
             {
@@ -56,6 +63,16 @@ namespace Hospital_Management_System
             patientsignup ps = new patientsignup();
             this.Hide();
             ps.Show();
+        }
+
+        private void ppas_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Patientlogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

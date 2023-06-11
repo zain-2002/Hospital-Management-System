@@ -66,11 +66,59 @@
     <Compile Include="adminOptions.Designer.cs">
       <DependentUpon>adminOptions.cs</DependentUpon>
     </Compile>
+    <Compile Include="adminviewpatients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminviewpatients.Designer.cs">
+      <DependentUpon>adminviewpatients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="available_docCardiac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="available_docCardiac.Designer.cs">
+      <DependentUpon>available_docCardiac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="available_docGyna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="available_docGyna.Designer.cs">
+      <DependentUpon>available_docGyna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="available_docNeuro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="available_docNeuro.Designer.cs">
+      <DependentUpon>available_docNeuro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="available_docOrtho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="available_docOrtho.Designer.cs">
+      <DependentUpon>available_docOrtho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cardiac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cardiac.Designer.cs">
+      <DependentUpon>cardiac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepartcrudmentC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepartcrudmentC.Designer.cs">
+      <DependentUpon>DepartcrudmentC.cs</DependentUpon>
+    </Compile>
     <Compile Include="doctor_login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="doctor_login.Designer.cs">
       <DependentUpon>doctor_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gyna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gyna.Designer.cs">
+      <DependentUpon>Gyna.cs</DependentUpon>
     </Compile>
     <Compile Include="MainFirst.cs">
       <SubType>Form</SubType>
@@ -89,6 +137,42 @@
     </Compile>
     <Compile Include="AdminSignup.Designer.cs">
       <DependentUpon>AdminSignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="managedoctorschedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="managedoctorschedule.Designer.cs">
+      <DependentUpon>managedoctorschedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="neuro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="neuro.Designer.cs">
+      <DependentUpon>neuro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ortho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ortho.Designer.cs">
+      <DependentUpon>ortho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="schedulecrud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="schedulecrud.Designer.cs">
+      <DependentUpon>schedulecrud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="select_dept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="select_dept.Designer.cs">
+      <DependentUpon>select_dept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="patientchoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="patientchoice.Designer.cs">
+      <DependentUpon>patientchoice.cs</DependentUpon>
     </Compile>
     <Compile Include="Patientlogin.cs">
       <SubType>Form</SubType>
@@ -150,14 +234,20 @@
     <Compile Include="Staff.Designer.cs">
       <DependentUpon>Staff.cs</DependentUpon>
     </Compile>
-    <Compile Include="Departments.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Departments.Designer.cs">
-      <DependentUpon>Departments.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdateDoctors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDoctors.Designer.cs">
+      <DependentUpon>UpdateDoctors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewandeditdoctors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewandeditdoctors.Designer.cs">
+      <DependentUpon>viewandeditdoctors.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddDoc.resx">
       <DependentUpon>AddDoc.cs</DependentUpon>
     </EmbeddedResource>
@@ -170,11 +260,47 @@
     <EmbeddedResource Include="AdminSignup.resx">
       <DependentUpon>AdminSignup.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="adminviewpatients.resx">
+      <DependentUpon>adminviewpatients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="available_docCardiac.resx">
+      <DependentUpon>available_docCardiac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="available_docGyna.resx">
+      <DependentUpon>available_docGyna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="available_docNeuro.resx">
+      <DependentUpon>available_docNeuro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="available_docOrtho.resx">
+      <DependentUpon>available_docOrtho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cardiac.resx">
+      <DependentUpon>cardiac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartcrudmentC.resx">
+      <DependentUpon>DepartcrudmentC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="doctor_login.resx">
       <DependentUpon>doctor_login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gyna.resx">
+      <DependentUpon>Gyna.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainFirst.resx">
       <DependentUpon>MainFirst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="managedoctorschedule.resx">
+      <DependentUpon>managedoctorschedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="neuro.resx">
+      <DependentUpon>neuro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ortho.resx">
+      <DependentUpon>ortho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="patientchoice.resx">
+      <DependentUpon>patientchoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Patientlogin.resx">
       <DependentUpon>Patientlogin.cs</DependentUpon>
@@ -192,6 +318,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="schedulecrud.resx">
+      <DependentUpon>schedulecrud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="select_dept.resx">
+      <DependentUpon>select_dept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDoctors.resx">
+      <DependentUpon>UpdateDoctors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewandeditdoctors.resx">
+      <DependentUpon>viewandeditdoctors.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -213,6 +351,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\DP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maillogo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
