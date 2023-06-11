@@ -57,8 +57,6 @@ namespace Hospital_Management_System
             cmd.Parameters.AddWithValue("@dadress", address.Text);
             cmd.Parameters.AddWithValue("@cnic", cnic.Text);
             cmd.Parameters.AddWithValue("@dpass", password.Text);
-            cmd.Parameters.AddWithValue("@depid", dept_id.Text);
-
             int a = cmd.ExecuteNonQuery();
             if (a>0)
             {
@@ -77,6 +75,92 @@ namespace Hospital_Management_System
 
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            adminOptions ao=new adminOptions();
+            this.Hide();
+            ao.Show();
+        }
+
+        private void id_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contactno_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void email_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void specialization_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void name_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void address_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cnic_TextChanged(object sender, EventArgs e)
+        {
+
 
         private void button2_Click(object sender, EventArgs e)
         {

@@ -242,12 +242,8 @@
     <Compile Include="UpdateDoctors.Designer.cs">
       <DependentUpon>UpdateDoctors.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewandeditdoctors.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="viewandeditdoctors.Designer.cs">
-      <DependentUpon>viewandeditdoctors.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddDoc.resx">
       <DependentUpon>AddDoc.cs</DependentUpon>
     </EmbeddedResource>
@@ -318,18 +314,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="schedulecrud.resx">
-      <DependentUpon>schedulecrud.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="select_dept.resx">
-      <DependentUpon>select_dept.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UpdateDoctors.resx">
-      <DependentUpon>UpdateDoctors.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="viewandeditdoctors.resx">
-      <DependentUpon>viewandeditdoctors.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

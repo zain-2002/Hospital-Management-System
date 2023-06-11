@@ -35,14 +35,11 @@ namespace Hospital_Management_System
             select_dept select_Dept = new select_dept();
             this.Hide();
             select_Dept.Show();
+            int a;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            doctor_id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells[0].Value);
-            available_docNeuro available_DocNeuro = new available_docNeuro();
-            this.Hide();
-            available_DocNeuro.Show();
         }
     }
 }
