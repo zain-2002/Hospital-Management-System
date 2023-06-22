@@ -54,12 +54,6 @@
     <Compile Include="AddDoc.Designer.cs">
       <DependentUpon>AddDoc.cs</DependentUpon>
     </Compile>
-    <Compile Include="Addpatienttreatment.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Addpatienttreatment.Designer.cs">
-      <DependentUpon>Addpatienttreatment.cs</DependentUpon>
-    </Compile>
     <Compile Include="Adminlogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,60 +66,11 @@
     <Compile Include="adminOptions.Designer.cs">
       <DependentUpon>adminOptions.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminviewpatients.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="adminviewpatients.Designer.cs">
-      <DependentUpon>adminviewpatients.cs</DependentUpon>
-    </Compile>
-    <Compile Include="dealedpatients.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="dealedpatients.Designer.cs">
-      <DependentUpon>dealedpatients.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Doctoractionchoice.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Doctoractionchoice.Designer.cs">
-      <DependentUpon>Doctoractionchoice.cs</DependentUpon>
-    </Compile>
-    <Compile Include="patientadmittreatforpt.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="patientadmittreatforpt.Designer.cs">
-      <DependentUpon>patientadmittreatforpt.cs</DependentUpon>
-    </Compile>
-    <Compile Include="patient_admitdetails.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include=".Designer.cs">
-      <DependentUpon>patient_admitdetails.cs</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="appointmentbooking.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="appointmentbooking.Designer.cs">
-      <DependentUpon>appointmentbooking.cs</DependentUpon>
-    </Compile>
-    <Compile Include="DepartcrudmentC.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DepartcrudmentC.Designer.cs">
-      <DependentUpon>DepartcrudmentC.cs</DependentUpon>
-    </Compile>
     <Compile Include="doctor_login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="doctor_login.Designer.cs">
       <DependentUpon>doctor_login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Doctorsindept.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Doctorsindept.Designer.cs">
-      <DependentUpon>Doctorsindept.cs</DependentUpon>
     </Compile>
     <Compile Include="MainFirst.cs">
       <SubType>Form</SubType>
@@ -144,54 +89,6 @@
     </Compile>
     <Compile Include="AdminSignup.Designer.cs">
       <DependentUpon>AdminSignup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="managedoctorschedule.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="managedoctorschedule.Designer.cs">
-      <DependentUpon>managedoctorschedule.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Patientdiseases.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Patientdiseases.Designer.cs">
-      <DependentUpon>Patientdiseases.cs</DependentUpon>
-    </Compile>
-    <Compile Include="patient_admithistory.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="patient_admithistory.Designer.cs">
-      <DependentUpon>patient_admithistory.cs</DependentUpon>
-    </Compile>
-    <Compile Include="patient_notadmittreatment.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="patient_notadmittreatment.Designer.cs">
-      <DependentUpon>patient_notadmittreatment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="patient_patientdiseases.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="patient_patientdiseases.Designer.cs">
-      <DependentUpon>patient_patientdiseases.cs</DependentUpon>
-    </Compile>
-    <Compile Include="schedulecrud.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="schedulecrud.Designer.cs">
-      <DependentUpon>schedulecrud.cs</DependentUpon>
-    </Compile>
-    <Compile Include="select_dept.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="select_dept.Designer.cs">
-      <DependentUpon>select_dept.cs</DependentUpon>
-    </Compile>
-    <Compile Include="patientchoice.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="patientchoice.Designer.cs">
-      <DependentUpon>patientchoice.cs</DependentUpon>
     </Compile>
     <Compile Include="Patientlogin.cs">
       <SubType>Form</SubType>
@@ -253,61 +150,16 @@
     <Compile Include="Staff.Designer.cs">
       <DependentUpon>Staff.cs</DependentUpon>
     </Compile>
+    <Compile Include="Departments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Departments.Designer.cs">
+      <DependentUpon>Departments.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UpdateDoctors.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UpdateDoctors.Designer.cs">
-      <DependentUpon>UpdateDoctors.cs</DependentUpon>
-    </Compile>
-    <Compile Include="viewadmithistory.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="viewadmithistory.Designer.cs">
-      <DependentUpon>viewadmithistory.cs</DependentUpon>
-    </Compile>
-    <Compile Include="viewandeditdoctors.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="viewandeditdoctors.Designer.cs">
-      <DependentUpon>viewandeditdoctors.cs</DependentUpon>
-    </Compile>
-    <Compile Include="viewappointment.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="viewappointment.Designer.cs">
-      <DependentUpon>viewappointment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="patient_viewnotadmithistory.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="patient_viewnotadmithistory.Designer.cs">
-      <DependentUpon>patient_viewnotadmithistory.cs</DependentUpon>
-    </Compile>
-    <Compile Include="viewappointmentstodoc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="viewappointmentstodoc.Designer.cs">
-      <DependentUpon>viewappointmentstodoc.cs</DependentUpon>
-    </Compile>
-    <Compile Include="view_admittedpatients.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view_admittedpatients.Designer.cs">
-      <DependentUpon>view_admittedpatients.cs</DependentUpon>
-    </Compile>
-    <Compile Include="view_treatedpatients.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="view_treatedpatients.Designer.cs">
-      <DependentUpon>view_treatedpatients.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="AddDoc.resx">
       <DependentUpon>AddDoc.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Addpatienttreatment.resx">
-      <DependentUpon>Addpatienttreatment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Adminlogin.resx">
       <DependentUpon>Adminlogin.cs</DependentUpon>
@@ -318,74 +170,17 @@
     <EmbeddedResource Include="AdminSignup.resx">
       <DependentUpon>AdminSignup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminviewpatients.resx">
-      <DependentUpon>adminviewpatients.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Beds.resx">
-      <DependentUpon>Beds.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="dealedpatients.resx">
-      <DependentUpon>dealedpatients.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Doctoractionchoice.resx">
-      <DependentUpon>Doctoractionchoice.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Doctor_Schedules.resx">
-      <DependentUpon>Doctor_Schedules.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Medical_Records.resx">
-      <DependentUpon>Medical_Records.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Medication.resx">
-      <DependentUpon>Medication.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="patientadmittreatforpt.resx">
-      <DependentUpon>patientadmittreatforpt.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="patient_admitdetails.resx">
-      <DependentUpon>patient_admitdetails.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="appointmentbooking.resx">
-      <DependentUpon>appointmentbooking.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DepartcrudmentC.resx">
-      <DependentUpon>DepartcrudmentC.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="doctor_login.resx">
       <DependentUpon>doctor_login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Doctorsindept.resx">
-      <DependentUpon>Doctorsindept.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MainFirst.resx">
       <DependentUpon>MainFirst.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="managedoctorschedule.resx">
-      <DependentUpon>managedoctorschedule.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="patientchoice.resx">
-      <DependentUpon>patientchoice.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Patientdiseases.resx">
-      <DependentUpon>Patientdiseases.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Patientlogin.resx">
       <DependentUpon>Patientlogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="patientsignup.resx">
       <DependentUpon>patientsignup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="patient_admithistory.resx">
-      <DependentUpon>patient_admithistory.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="patient_notadmittreatment.resx">
-      <DependentUpon>patient_notadmittreatment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="patient_patientdiseases.resx">
-      <DependentUpon>patient_patientdiseases.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Prescriptions.resx">
-      <DependentUpon>Prescriptions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -397,45 +192,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Rooms.resx">
-      <DependentUpon>Rooms.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="schedulecrud.resx">
-      <DependentUpon>schedulecrud.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="select_dept.resx">
-      <DependentUpon>select_dept.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Staff.resx">
-      <DependentUpon>Staff.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Test_Results.resx">
-      <DependentUpon>Test_Results.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UpdateDoctors.resx">
-      <DependentUpon>UpdateDoctors.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="viewadmithistory.resx">
-      <DependentUpon>viewadmithistory.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="viewandeditdoctors.resx">
-      <DependentUpon>viewandeditdoctors.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="viewappointment.resx">
-      <DependentUpon>viewappointment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="patient_viewnotadmithistory.resx">
-      <DependentUpon>patient_viewnotadmithistory.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="viewappointmentstodoc.resx">
-      <DependentUpon>viewappointmentstodoc.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view_admittedpatients.resx">
-      <DependentUpon>view_admittedpatients.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="view_treatedpatients.resx">
-      <DependentUpon>view_treatedpatients.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -457,33 +213,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\DP.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\img.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\passlogo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\maillogo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\deplogo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\doclogo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\patlogo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shedlogo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\contactlogo.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

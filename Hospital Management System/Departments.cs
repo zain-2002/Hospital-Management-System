@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Hospital_Management_System
 {
-    public partial class view_treatedpatients : Form
+    public partial class Form9 : Form
     {
-        public view_treatedpatients()
+        public Form9()
         {
             InitializeComponent();
-        }
-
-        private void back_Click(object sender, EventArgs e)
-        {
-            Doctoractionchoice  doctoractionchoice  = new Doctoractionchoice();
-            doctoractionchoice.Show();
-            this.Hide();
         }
     }
 }

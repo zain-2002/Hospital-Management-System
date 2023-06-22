@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Configuration;
-using System.Text.RegularExpressions;
 
 namespace Hospital_Management_System
 {
@@ -25,22 +24,18 @@ namespace Hospital_Management_System
             string cs = ConfigurationManager.ConnectionStrings["AAZ"].ConnectionString;
             SqlConnection con = new SqlConnection(cs);
             con.Open();
-            string querry = "adminsignup @id,@username,@apassword,@email,@contactno";
+            string querry = "insert into admin_tb values (@id,@username,@pass,@email,@cn)";
             SqlCommand cmd = new SqlCommand(querry, con);
             cmd.Parameters.AddWithValue("@id", id.Text);
             cmd.Parameters.AddWithValue("@username", textBox1.Text);
-            cmd.Parameters.AddWithValue("@apassword", textBox2.Text);
-            cmd.Parameters.AddWithValue("@email", email.Text);
-            cmd.Parameters.AddWithValue("@contactno", textBox5.Text);
-
-            con.InfoMessage += Connection_InfoMessage;
-          
-
+            cmd.Parameters.AddWithValue("@pass", textBox2.Text);
+            cmd.Parameters.AddWithValue("@email", textBox4.Text);
+            cmd.Parameters.AddWithValue("@cn", textBox5.Text);
 
             int a = cmd.ExecuteNonQuery();  
             if (a>0)
             {
-             
+                MessageBox.Show("Success");
                 Adminlogin adminlogin = new Adminlogin();
                 this.Hide();
                 adminlogin.Show();
@@ -51,14 +46,6 @@ namespace Hospital_Management_System
                 MessageBox.Show("Failure");
                 con.Close();
             }
-        }
-        private void Connection_InfoMessage(object sender, SqlInfoMessageEventArgs e)
-        {
-            // Retrieve the print statement from the event args
-            string printStatement = e.Message;
-
-            // Display the print statement in a MessageBox or any other desired way
-            MessageBox.Show(printStatement);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -124,29 +111,6 @@ namespace Hospital_Management_System
         }
 
         private void id_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void email_MouseLeave(object sender, EventArgs e)
-        {
-
-        }
-
-        private void email_Leave(object sender, EventArgs e)
-        {
-            if (!Regex.IsMatch(email.Text, @"^[a-zA-Z0-9_.+-]+@gmail\.com$"))
-            {
-                email.Focus();
-                errorProvider1.SetError(email, "Please enter a valid Gmail address.");
-            }
-            else
-            {
-                errorProvider1.Clear();
-            }
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
         {
 
         }
