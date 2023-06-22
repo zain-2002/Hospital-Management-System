@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
+using System.Security.Cryptography;
 
 namespace Hospital_Management_System
 {
@@ -31,13 +33,21 @@ namespace Hospital_Management_System
             string cs = ConfigurationManager.ConnectionStrings["AAZ"].ConnectionString;
             SqlConnection con=new SqlConnection(cs);
             con.Open();
-            string querry = "Select * from admin_tb";
+            string querry = "Select * from admin_tb where id=@id and username=@usrname and apassword=@pas and email=@email";
             SqlCommand cmd = new SqlCommand(querry, con);
-            SqlDataReader rd=cmd.ExecuteReader();
+            cmd.Parameters.AddWithValue("@id", uid.Text);
+            cmd.Parameters.AddWithValue("@usrname", uname.Text);
+            cmd.Parameters.AddWithValue("@pas", password.Text);
+            cmd.Parameters.AddWithValue("@email", email.Text);
+
+            SqlDataReader rd =cmd.ExecuteReader();
             if (rd.HasRows)
             {
                 MessageBox.Show("Success");
                 con.Close();
+                adminOptions ao = new adminOptions();
+                this.Hide();
+                ao.Show();
             }
             else
             {
@@ -54,5 +64,24 @@ namespace Hospital_Management_System
             this.Hide();
             mf.Show();
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void email_Leave(object sender, EventArgs e)
+        {
+            if (!Regex.IsMatch(email.Text, @"^[a-zA-Z0-9_.+-]+@gmail\.com$"))
+            {
+                email.Focus();
+                errorProvider1.SetError(email, "Please enter a valid Gmail address.");
+            }
+            else
+            {
+                errorProvider1.Clear();
+            }
+        }
+
     }
 }

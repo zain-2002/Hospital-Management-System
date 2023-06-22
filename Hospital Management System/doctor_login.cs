@@ -14,6 +14,7 @@ namespace Hospital_Management_System
 {
     public partial class doctor_login : Form
     {
+        public static int doc_id=0;
         public doctor_login()
         {
             InitializeComponent();
@@ -21,33 +22,48 @@ namespace Hospital_Management_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-            string cs = ConfigurationManager.ConnectionStrings["AAZ"].ConnectionString;
-            SqlConnection con = new SqlConnection(cs);
-            con.Open();
-            string querry = "Select * from doctors where doctor_id=@did and dpass=@dpas";
-            SqlCommand cmd = new SqlCommand(querry, con);
-            cmd.Parameters.AddWithValue("@did", textBox1.Text);
-            cmd.Parameters.AddWithValue("@dpas", textBox2.Text);
-
-            SqlDataReader rd = cmd.ExecuteReader();
-            if (rd.HasRows)
+            if (Convert.ToInt32(textBox1.Text) < 0)
             {
-                MessageBox.Show("Success");
-                con.Close();
+                MessageBox.Show("Can not insert negative values");
+                
             }
             else
             {
-                MessageBox.Show("Failure");
-                con.Close();
+                string cs = ConfigurationManager.ConnectionStrings["AAZ"].ConnectionString;
+                SqlConnection con = new SqlConnection(cs);
+                con.Open();
+                string querry = "Select * from doctors where doctor_id=@did and dpass=@dpas";
+                SqlCommand cmd = new SqlCommand(querry, con);
+                cmd.Parameters.AddWithValue("@did", textBox1.Text);
+                cmd.Parameters.AddWithValue("@dpas", textBox2.Text);
+
+                SqlDataReader rd = cmd.ExecuteReader();
+                if (rd.HasRows)
+                {
+                    MessageBox.Show("Success");
+                    con.Close();
+                    doc_id = Convert.ToInt32(textBox1.Text);
+                    Doctoractionchoice dc = new Doctoractionchoice();
+                    this.Hide();
+                    dc.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Failure");
+                    con.Close();
+                }
+
             }
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+       
             MainFirst mf=new MainFirst();
             this.Hide();
             mf.Show();  
         }
+
     }
 }

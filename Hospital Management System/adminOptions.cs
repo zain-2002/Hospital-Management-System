@@ -23,5 +23,31 @@ namespace Hospital_Management_System
             this.Hide();
             addDoc.Show();  
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            managedoctorschedule ms=new managedoctorschedule();
+            this.Hide();
+            ms.Show();
+        }
+
+        private void managedepartment_Click(object sender, EventArgs e)
+        {
+            DepartcrudmentC c=new DepartcrudmentC();
+            this.Hide();
+            c.Show();
+        }
+
+        private void viewpatients_Click(object sender, EventArgs e)
+        {
+            adminviewpatients av=new adminviewpatients();
+            this.Hide();
+            av.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
