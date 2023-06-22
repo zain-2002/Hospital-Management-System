@@ -45,20 +45,32 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+=======
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel5.SuspendLayout();
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.SuspendLayout();
             // 
             // label1
@@ -75,6 +87,7 @@
             // 
             // uname
             // 
+<<<<<<< HEAD
             this.uname.BackColor = System.Drawing.Color.Black;
             this.uname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.uname.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -83,6 +96,16 @@
             this.uname.Name = "uname";
             this.uname.Size = new System.Drawing.Size(186, 18);
             this.uname.TabIndex = 1;
+=======
+            this.textBox1.BackColor = System.Drawing.Color.Black;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(454, 103);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(186, 18);
+            this.textBox1.TabIndex = 1;
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // label2
             // 
@@ -98,6 +121,7 @@
             // 
             // password
             // 
+<<<<<<< HEAD
             this.password.BackColor = System.Drawing.Color.Black;
             this.password.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.password.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -108,6 +132,16 @@
             this.password.TabIndex = 3;
             this.password.UseSystemPasswordChar = true;
             this.password.UseWaitCursor = true;
+=======
+            this.textBox2.BackColor = System.Drawing.Color.Black;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.White;
+            this.textBox2.Location = new System.Drawing.Point(454, 191);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(186, 18);
+            this.textBox2.TabIndex = 3;
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // button1
             // 
@@ -156,6 +190,7 @@
             // 
             // email
             // 
+<<<<<<< HEAD
             this.email.BackColor = System.Drawing.Color.Black;
             this.email.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.email.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -166,6 +201,16 @@
             this.email.TabIndex = 7;
             this.email.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             this.email.Leave += new System.EventHandler(this.email_Leave);
+=======
+            this.textBox3.BackColor = System.Drawing.Color.Black;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.White;
+            this.textBox3.Location = new System.Drawing.Point(454, 147);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(186, 18);
+            this.textBox3.TabIndex = 7;
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // label4
             // 
@@ -181,6 +226,7 @@
             // 
             // uid
             // 
+<<<<<<< HEAD
             this.uid.BackColor = System.Drawing.Color.Black;
             this.uid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.uid.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -189,6 +235,16 @@
             this.uid.Name = "uid";
             this.uid.Size = new System.Drawing.Size(186, 18);
             this.uid.TabIndex = 9;
+=======
+            this.textBox4.BackColor = System.Drawing.Color.Black;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.ForeColor = System.Drawing.Color.White;
+            this.textBox4.Location = new System.Drawing.Point(457, 50);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(186, 18);
+            this.textBox4.TabIndex = 9;
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // button3
             // 
@@ -247,6 +303,7 @@
             this.panel5.Size = new System.Drawing.Size(291, 366);
             this.panel5.TabIndex = 14;
             // 
+<<<<<<< HEAD
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::Hospital_Management_System.Properties.Resources.img;
@@ -257,6 +314,8 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // label5
             // 
             this.label5.AutoSize = true;
@@ -308,9 +367,21 @@
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
+<<<<<<< HEAD
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
+=======
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Hospital_Management_System.Properties.Resources.img;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(45, 84);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(198, 178);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // Adminlogin
             // 
@@ -343,12 +414,19 @@
             this.Text = "Adminlogin";
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -378,6 +456,9 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
+<<<<<<< HEAD
         private System.Windows.Forms.ErrorProvider errorProvider1;
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     }
 }

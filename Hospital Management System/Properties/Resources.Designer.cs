@@ -159,6 +159,7 @@ namespace Hospital_Management_System.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+<<<<<<< HEAD
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -179,5 +180,7 @@ namespace Hospital_Management_System.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     }
 }

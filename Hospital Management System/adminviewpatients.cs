@@ -7,7 +7,10 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+<<<<<<< HEAD
 using System.Text.RegularExpressions;
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
@@ -16,7 +19,10 @@ namespace Hospital_Management_System
 {
     public partial class adminviewpatients : Form
     {
+<<<<<<< HEAD
         public static int patientid;
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
         public adminviewpatients()
         {
             InitializeComponent();
@@ -49,7 +55,11 @@ namespace Hospital_Management_System
             contactno.Text= dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
             address.Text= dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
             email.Text= dataGridView1.SelectedRows[0].Cells[7].Value.ToString();
+<<<<<<< HEAD
             patientid =Convert.ToInt32( patient_id.Text);
+=======
+          
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
         }
 
       
@@ -174,6 +184,7 @@ namespace Hospital_Management_System
             }
 
         }
+<<<<<<< HEAD
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -201,5 +212,7 @@ namespace Hospital_Management_System
             this.Hide();
             adminOptions.Show();
         }
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     }
 }

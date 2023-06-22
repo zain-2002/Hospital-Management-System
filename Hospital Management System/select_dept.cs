@@ -16,6 +16,7 @@ namespace Hospital_Management_System
 {
     public partial class select_dept : Form
     {
+<<<<<<< HEAD
         public static int depart_id;
         public select_dept()
         {
@@ -47,10 +48,46 @@ namespace Hospital_Management_System
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string selectedValue = comboBox1.SelectedItem.ToString();
+=======
+        public select_dept()
+        {
+            InitializeComponent();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string cs = ConfigurationManager.ConnectionStrings["AAZ"].ConnectionString;
+            SqlConnection con = new SqlConnection(cs);
+            con.Open();
+            string querry = "update Patients set dept_id=2 where patient_id=@id";
+            SqlCommand cmd = new SqlCommand(querry, con);
+            cmd.Parameters.AddWithValue("@id", Patientlogin.patientid);
+
+
+
+            int a = cmd.ExecuteNonQuery();
+            if (a > 0)
+            {
+                con.Close();
+                cardiac gyna = new  cardiac();
+                this.Hide();
+                gyna.Show();
+            }
+            else
+            {
+                MessageBox.Show("Failure");
+                con.Close();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
 
             string cs = ConfigurationManager.ConnectionStrings["AAZ"].ConnectionString;
             SqlConnection con = new SqlConnection(cs);
             con.Open();
+<<<<<<< HEAD
 
             string query = "select dept_id from department where dname=@dname";
 
@@ -84,6 +121,82 @@ namespace Hospital_Management_System
             patientchoice patientchoice = new patientchoice();
             patientchoice.Show();
             this.Hide();
+=======
+            string querry = "update Patients set dept_id=1 where patient_id=@id";
+            SqlCommand cmd = new SqlCommand(querry, con);
+            cmd.Parameters.AddWithValue("@id",Patientlogin.patientid);
+       
+
+
+            int a = cmd.ExecuteNonQuery();
+            if (a > 0)
+            {
+                con.Close();
+                Gyna gyna = new Gyna();
+                this.Hide();
+                gyna.Show();
+            }
+            else
+            {
+                MessageBox.Show("Failure");
+                con.Close();
+            }
+            
+        }
+
+        private void neuro_Click(object sender, EventArgs e)
+        {
+            string cs = ConfigurationManager.ConnectionStrings["AAZ"].ConnectionString;
+            SqlConnection con = new SqlConnection(cs);
+            con.Open();
+            string querry = "update Patients set dept_id=3 where patient_id=@id";
+            SqlCommand cmd = new SqlCommand(querry, con);
+            cmd.Parameters.AddWithValue("@id", Patientlogin.patientid);
+
+
+
+            int a = cmd.ExecuteNonQuery();
+            if (a > 0)
+            {
+                con.Close();
+                neuro gyna = new neuro();
+                this.Hide();
+                gyna.Show();
+            }
+            else
+            {
+                MessageBox.Show("Failure");
+                con.Close();
+            }
+
+        }
+
+        private void ortho_Click(object sender, EventArgs e)
+        {
+            string cs = ConfigurationManager.ConnectionStrings["AAZ"].ConnectionString;
+            SqlConnection con = new SqlConnection(cs);
+            con.Open();
+            string querry = "update Patients set dept_id=4 where patient_id=@id";
+            SqlCommand cmd = new SqlCommand(querry, con);
+            cmd.Parameters.AddWithValue("@id", Patientlogin.patientid);
+
+
+
+            int a = cmd.ExecuteNonQuery();
+            if (a > 0)
+            {
+                con.Close();
+                ortho gyna = new ortho();
+                this.Hide();
+                gyna.Show();
+            }
+            else
+            {
+                MessageBox.Show("Failure");
+                con.Close();
+            }
+
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
         }
     }
 }

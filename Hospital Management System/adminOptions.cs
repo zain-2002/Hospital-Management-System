@@ -44,10 +44,13 @@ namespace Hospital_Management_System
             this.Hide();
             av.Show();
         }
+<<<<<<< HEAD
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     }
 }

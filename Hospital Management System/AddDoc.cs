@@ -13,7 +13,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+<<<<<<< HEAD
 using System.Text.RegularExpressions;
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
 
 namespace Hospital_Management_System
 {
@@ -87,6 +90,95 @@ namespace Hospital_Management_System
             ao.Show();
         }
 
+<<<<<<< HEAD
+=======
+        private void id_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contactno_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void email_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void specialization_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void name_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void address_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cnic_TextChanged(object sender, EventArgs e)
+        {
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            adminOptions ao=new adminOptions();
+            this.Hide();
+            ao.Show();
+        }
+
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string selectedValue = comboBox1.SelectedItem.ToString();
@@ -114,6 +206,7 @@ namespace Hospital_Management_System
             
         }
 
+<<<<<<< HEAD
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -150,5 +243,15 @@ namespace Hospital_Management_System
         //        errorProvider1.Clear();
         //    }
         //}
+=======
+
+
+
+
+
+
+
+        
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     }
 }

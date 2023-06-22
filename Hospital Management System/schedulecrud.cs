@@ -162,6 +162,7 @@ namespace Hospital_Management_System
             To.Text= dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
 
         }
+<<<<<<< HEAD
 
         private void back_Click(object sender, EventArgs e)
         {
@@ -169,5 +170,7 @@ namespace Hospital_Management_System
             this.Hide();    
             managedoctorschedule.Show();
         }
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     }
 }

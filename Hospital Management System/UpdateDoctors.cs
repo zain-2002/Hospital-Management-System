@@ -7,7 +7,10 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+<<<<<<< HEAD
 using System.Text.RegularExpressions;
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -71,6 +74,7 @@ namespace Hospital_Management_System
 
         }
 
+<<<<<<< HEAD
         private void email_Leave(object sender, EventArgs e)
         {
             if (!Regex.IsMatch(email.Text, @"^[a-zA-Z0-9_.+-]+@gmail\.com$"))
@@ -88,5 +92,8 @@ namespace Hospital_Management_System
         {
 
         }
+=======
+        
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     }
 }

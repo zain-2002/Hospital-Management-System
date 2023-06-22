@@ -43,6 +43,7 @@ namespace Hospital_Management_System
             doctor_name = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
 
         }
+<<<<<<< HEAD
 
         private void back_Click(object sender, EventArgs e)
         {
@@ -50,5 +51,7 @@ namespace Hospital_Management_System
             adminOptions.Show();
             this.Hide();
         }
+=======
+>>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     }
 }
