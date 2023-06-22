@@ -115,7 +115,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(161, 20);
             this.textBox1.TabIndex = 7;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -219,10 +218,6 @@
             this.Controls.Add(this.label1);
             this.Name = "doctor_login";
             this.Text = " ";
-<<<<<<< HEAD
-=======
-            this.Load += new System.EventHandler(this.doctor_login_Load);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

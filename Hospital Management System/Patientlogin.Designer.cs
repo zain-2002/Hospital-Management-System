@@ -35,7 +35,6 @@
             this.pid = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.signup = new System.Windows.Forms.Button();
-<<<<<<< HEAD
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,18 +46,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-=======
-            this.label3 = new System.Windows.Forms.Label();
-            this.cppass = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.SuspendLayout();
             // 
             // back
@@ -85,11 +72,7 @@
             this.login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.login.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login.ForeColor = System.Drawing.Color.White;
-<<<<<<< HEAD
             this.login.Location = new System.Drawing.Point(478, 199);
-=======
-            this.login.Location = new System.Drawing.Point(473, 217);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(127, 36);
             this.login.TabIndex = 16;
@@ -107,11 +90,7 @@
             this.ppas.Name = "ppas";
             this.ppas.Size = new System.Drawing.Size(160, 18);
             this.ppas.TabIndex = 15;
-<<<<<<< HEAD
             this.ppas.UseSystemPasswordChar = true;
-=======
-            this.ppas.TextChanged += new System.EventHandler(this.ppas_TextChanged);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // label2
             // 
@@ -166,7 +145,6 @@
             // 
             // panel1
             // 
-<<<<<<< HEAD
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -183,37 +161,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(198, 178);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-=======
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Black;
-            this.label3.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(364, 153);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(177, 21);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Confirm Password :";
-            // 
-            // cppass
-            // 
-            this.cppass.BackColor = System.Drawing.Color.Black;
-            this.cppass.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.cppass.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cppass.ForeColor = System.Drawing.Color.White;
-            this.cppass.Location = new System.Drawing.Point(560, 156);
-            this.cppass.Name = "cppass";
-            this.cppass.Size = new System.Drawing.Size(160, 18);
-            this.cppass.TabIndex = 20;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(331, 371);
-            this.panel1.TabIndex = 21;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // label4
             // 
@@ -226,19 +173,6 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "HOSPITAL NAME";
             // 
-<<<<<<< HEAD
-=======
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::Hospital_Management_System.Properties.Resources.img;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(63, 85);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(198, 178);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
@@ -255,7 +189,6 @@
             this.panel3.Size = new System.Drawing.Size(160, 1);
             this.panel3.TabIndex = 23;
             // 
-<<<<<<< HEAD
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.White;
@@ -276,15 +209,6 @@
             this.pictureBox4.Size = new System.Drawing.Size(21, 21);
             this.pictureBox4.TabIndex = 26;
             this.pictureBox4.TabStop = false;
-=======
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.Location = new System.Drawing.Point(560, 173);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(160, 1);
-            this.panel4.TabIndex = 24;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // Patientlogin
             // 
@@ -292,20 +216,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(802, 371);
-<<<<<<< HEAD
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-=======
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.cppass);
-            this.Controls.Add(this.label3);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.Controls.Add(this.signup);
             this.Controls.Add(this.back);
             this.Controls.Add(this.login);
@@ -315,18 +230,11 @@
             this.Controls.Add(this.label1);
             this.Name = "Patientlogin";
             this.Text = "Patientlogin";
-<<<<<<< HEAD
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-=======
-            this.Load += new System.EventHandler(this.Patientlogin_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -341,21 +249,12 @@
         private System.Windows.Forms.TextBox pid;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button signup;
-<<<<<<< HEAD
-=======
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox cppass;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-<<<<<<< HEAD
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
-=======
-        private System.Windows.Forms.Panel panel4;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     }
 }

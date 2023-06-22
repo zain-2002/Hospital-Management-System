@@ -78,7 +78,6 @@
     <Compile Include="adminviewpatients.Designer.cs">
       <DependentUpon>adminviewpatients.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="dealedpatients.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,37 +108,6 @@
     </Compile>
     <Compile Include="appointmentbooking.Designer.cs">
       <DependentUpon>appointmentbooking.cs</DependentUpon>
-=======
-    <Compile Include="available_docCardiac.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="available_docCardiac.Designer.cs">
-      <DependentUpon>available_docCardiac.cs</DependentUpon>
-    </Compile>
-    <Compile Include="available_docGyna.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="available_docGyna.Designer.cs">
-      <DependentUpon>available_docGyna.cs</DependentUpon>
-    </Compile>
-    <Compile Include="available_docNeuro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="available_docNeuro.Designer.cs">
-      <DependentUpon>available_docNeuro.cs</DependentUpon>
-    </Compile>
-    <Compile Include="available_docOrtho.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="available_docOrtho.Designer.cs">
-      <DependentUpon>available_docOrtho.cs</DependentUpon>
-    </Compile>
-    <Compile Include="cardiac.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="cardiac.Designer.cs">
-      <DependentUpon>cardiac.cs</DependentUpon>
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     </Compile>
     <Compile Include="DepartcrudmentC.cs">
       <SubType>Form</SubType>
@@ -153,19 +121,11 @@
     <Compile Include="doctor_login.Designer.cs">
       <DependentUpon>doctor_login.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Doctorsindept.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Doctorsindept.Designer.cs">
       <DependentUpon>Doctorsindept.cs</DependentUpon>
-=======
-    <Compile Include="Gyna.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Gyna.Designer.cs">
-      <DependentUpon>Gyna.cs</DependentUpon>
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     </Compile>
     <Compile Include="MainFirst.cs">
       <SubType>Form</SubType>
@@ -191,7 +151,6 @@
     <Compile Include="managedoctorschedule.Designer.cs">
       <DependentUpon>managedoctorschedule.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Patientdiseases.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -215,19 +174,6 @@
     </Compile>
     <Compile Include="patient_patientdiseases.Designer.cs">
       <DependentUpon>patient_patientdiseases.cs</DependentUpon>
-=======
-    <Compile Include="neuro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="neuro.Designer.cs">
-      <DependentUpon>neuro.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ortho.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ortho.Designer.cs">
-      <DependentUpon>ortho.cs</DependentUpon>
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     </Compile>
     <Compile Include="schedulecrud.cs">
       <SubType>Form</SubType>
@@ -307,17 +253,6 @@
     <Compile Include="Staff.Designer.cs">
       <DependentUpon>Staff.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UpdateDoctors.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UpdateDoctors.Designer.cs">
-      <DependentUpon>UpdateDoctors.cs</DependentUpon>
-    </Compile>
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UpdateDoctors.cs">
@@ -386,7 +321,6 @@
     <EmbeddedResource Include="adminviewpatients.resx">
       <DependentUpon>adminviewpatients.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="Beds.resx">
       <DependentUpon>Beds.cs</DependentUpon>
     </EmbeddedResource>
@@ -413,22 +347,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="appointmentbooking.resx">
       <DependentUpon>appointmentbooking.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="available_docCardiac.resx">
-      <DependentUpon>available_docCardiac.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="available_docGyna.resx">
-      <DependentUpon>available_docGyna.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="available_docNeuro.resx">
-      <DependentUpon>available_docNeuro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="available_docOrtho.resx">
-      <DependentUpon>available_docOrtho.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="cardiac.resx">
-      <DependentUpon>cardiac.cs</DependentUpon>
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     </EmbeddedResource>
     <EmbeddedResource Include="DepartcrudmentC.resx">
       <DependentUpon>DepartcrudmentC.cs</DependentUpon>
@@ -436,13 +354,8 @@
     <EmbeddedResource Include="doctor_login.resx">
       <DependentUpon>doctor_login.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="Doctorsindept.resx">
       <DependentUpon>Doctorsindept.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="Gyna.resx">
-      <DependentUpon>Gyna.cs</DependentUpon>
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     </EmbeddedResource>
     <EmbeddedResource Include="MainFirst.resx">
       <DependentUpon>MainFirst.cs</DependentUpon>
@@ -450,24 +363,12 @@
     <EmbeddedResource Include="managedoctorschedule.resx">
       <DependentUpon>managedoctorschedule.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="patientchoice.resx">
       <DependentUpon>patientchoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Patientdiseases.resx">
       <DependentUpon>Patientdiseases.cs</DependentUpon>
     </EmbeddedResource>
-=======
-    <EmbeddedResource Include="neuro.resx">
-      <DependentUpon>neuro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ortho.resx">
-      <DependentUpon>ortho.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="patientchoice.resx">
-      <DependentUpon>patientchoice.cs</DependentUpon>
-    </EmbeddedResource>
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     <EmbeddedResource Include="Patientlogin.resx">
       <DependentUpon>Patientlogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -569,7 +470,6 @@
   <ItemGroup>
     <None Include="Resources\maillogo.jpg" />
   </ItemGroup>
-<<<<<<< HEAD
   <ItemGroup>
     <None Include="Resources\deplogo.png" />
   </ItemGroup>
@@ -585,7 +485,5 @@
   <ItemGroup>
     <None Include="Resources\contactlogo.jpeg" />
   </ItemGroup>
-=======
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

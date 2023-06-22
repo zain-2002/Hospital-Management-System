@@ -28,10 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
             this.components = new System.ComponentModel.Container();
-=======
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.address = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -54,37 +51,25 @@
             this.update = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-<<<<<<< HEAD
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
-=======
-            this.button3 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
-<<<<<<< HEAD
             this.dataGridView1.BackgroundColor = System.Drawing.Color.Black;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(362, 75);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-=======
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(436, 60);
-            this.dataGridView1.Name = "dataGridView1";
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.dataGridView1.Size = new System.Drawing.Size(732, 390);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // address
             // 
-<<<<<<< HEAD
             this.address.BackColor = System.Drawing.Color.Black;
             this.address.Font = new System.Drawing.Font("MV Boli", 9F);
             this.address.ForeColor = System.Drawing.Color.White;
@@ -92,38 +77,22 @@
             this.address.Multiline = true;
             this.address.Name = "address";
             this.address.Size = new System.Drawing.Size(200, 94);
-=======
-            this.address.Location = new System.Drawing.Point(97, 278);
-            this.address.Multiline = true;
-            this.address.Name = "address";
-            this.address.Size = new System.Drawing.Size(287, 52);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.address.TabIndex = 51;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-<<<<<<< HEAD
             this.label7.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(53, 258);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(91, 21);
-=======
-            this.label7.Location = new System.Drawing.Point(23, 294);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 13);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.label7.TabIndex = 50;
             this.label7.Text = "Address :";
             // 
             // dateTimePicker1
             // 
-<<<<<<< HEAD
             this.dateTimePicker1.Location = new System.Drawing.Point(156, 354);
-=======
-            this.dateTimePicker1.Location = new System.Drawing.Point(97, 366);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 49;
@@ -131,129 +100,83 @@
             // Dateofbirth
             // 
             this.Dateofbirth.AutoSize = true;
-<<<<<<< HEAD
             this.Dateofbirth.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold);
             this.Dateofbirth.ForeColor = System.Drawing.Color.White;
             this.Dateofbirth.Location = new System.Drawing.Point(11, 354);
             this.Dateofbirth.Name = "Dateofbirth";
             this.Dateofbirth.Size = new System.Drawing.Size(145, 21);
-=======
-            this.Dateofbirth.Location = new System.Drawing.Point(12, 366);
-            this.Dateofbirth.Name = "Dateofbirth";
-            this.Dateofbirth.Size = new System.Drawing.Size(74, 13);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.Dateofbirth.TabIndex = 48;
             this.Dateofbirth.Text = "Date Of Birth :";
             // 
             // genderbox
             // 
-<<<<<<< HEAD
             this.genderbox.BackColor = System.Drawing.Color.Black;
             this.genderbox.Font = new System.Drawing.Font("MV Boli", 9F);
             this.genderbox.ForeColor = System.Drawing.Color.White;
-=======
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.genderbox.FormattingEnabled = true;
             this.genderbox.Items.AddRange(new object[] {
             "Male",
             "Female"});
-<<<<<<< HEAD
             this.genderbox.Location = new System.Drawing.Point(156, 388);
             this.genderbox.Name = "genderbox";
             this.genderbox.Size = new System.Drawing.Size(200, 25);
-=======
-            this.genderbox.Location = new System.Drawing.Point(110, 429);
-            this.genderbox.Name = "genderbox";
-            this.genderbox.Size = new System.Drawing.Size(121, 21);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.genderbox.TabIndex = 47;
             // 
             // label
             // 
             this.label.AutoSize = true;
-<<<<<<< HEAD
             this.label.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold);
             this.label.ForeColor = System.Drawing.Color.White;
             this.label.Location = new System.Drawing.Point(72, 385);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(84, 21);
-=======
-            this.label.Location = new System.Drawing.Point(33, 437);
-            this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(48, 13);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.label.TabIndex = 46;
             this.label.Text = "Gender :";
             // 
             // patient_id
             // 
-<<<<<<< HEAD
             this.patient_id.BackColor = System.Drawing.Color.Black;
             this.patient_id.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.patient_id.ForeColor = System.Drawing.Color.White;
             this.patient_id.Location = new System.Drawing.Point(156, 76);
             this.patient_id.Name = "patient_id";
             this.patient_id.Size = new System.Drawing.Size(200, 27);
-=======
-            this.patient_id.Location = new System.Drawing.Point(110, 72);
-            this.patient_id.Name = "patient_id";
-            this.patient_id.Size = new System.Drawing.Size(100, 20);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.patient_id.TabIndex = 45;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-<<<<<<< HEAD
             this.label6.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(106, 75);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(42, 21);
-=======
-            this.label6.Location = new System.Drawing.Point(54, 75);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(22, 13);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.label6.TabIndex = 44;
             this.label6.Text = "Id :";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-<<<<<<< HEAD
             this.label5.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(21, 216);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(123, 21);
-=======
-            this.label5.Location = new System.Drawing.Point(17, 243);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 13);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.label5.TabIndex = 43;
             this.label5.Text = "Contact No :";
             // 
             // contactno
             // 
-<<<<<<< HEAD
             this.contactno.BackColor = System.Drawing.Color.Black;
             this.contactno.Font = new System.Drawing.Font("MV Boli", 9F);
             this.contactno.ForeColor = System.Drawing.Color.White;
             this.contactno.Location = new System.Drawing.Point(156, 213);
             this.contactno.Name = "contactno";
             this.contactno.Size = new System.Drawing.Size(200, 27);
-=======
-            this.contactno.Location = new System.Drawing.Point(110, 240);
-            this.contactno.Name = "contactno";
-            this.contactno.Size = new System.Drawing.Size(100, 20);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.contactno.TabIndex = 42;
             // 
             // email
             // 
-<<<<<<< HEAD
             this.email.BackColor = System.Drawing.Color.Black;
             this.email.Font = new System.Drawing.Font("MV Boli", 9F);
             this.email.ForeColor = System.Drawing.Color.White;
@@ -262,33 +185,20 @@
             this.email.Size = new System.Drawing.Size(200, 27);
             this.email.TabIndex = 41;
             this.email.Leave += new System.EventHandler(this.email_Leave);
-=======
-            this.email.Location = new System.Drawing.Point(110, 199);
-            this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(100, 20);
-            this.email.TabIndex = 41;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-<<<<<<< HEAD
             this.label4.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(73, 177);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 21);
-=======
-            this.label4.Location = new System.Drawing.Point(37, 202);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.label4.TabIndex = 40;
             this.label4.Text = "Email :";
             // 
             // patientpassword
             // 
-<<<<<<< HEAD
             this.patientpassword.BackColor = System.Drawing.Color.Black;
             this.patientpassword.Font = new System.Drawing.Font("MV Boli", 9F);
             this.patientpassword.ForeColor = System.Drawing.Color.White;
@@ -297,66 +207,41 @@
             this.patientpassword.Size = new System.Drawing.Size(200, 27);
             this.patientpassword.TabIndex = 37;
             this.patientpassword.UseSystemPasswordChar = true;
-=======
-            this.patientpassword.Location = new System.Drawing.Point(110, 151);
-            this.patientpassword.Name = "patientpassword";
-            this.patientpassword.Size = new System.Drawing.Size(100, 20);
-            this.patientpassword.TabIndex = 37;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-<<<<<<< HEAD
             this.label2.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(41, 140);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 21);
-=======
-            this.label2.Location = new System.Drawing.Point(33, 154);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 13);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.label2.TabIndex = 36;
             this.label2.Text = "Password :";
             // 
             // patientname
             // 
-<<<<<<< HEAD
             this.patientname.BackColor = System.Drawing.Color.Black;
             this.patientname.Font = new System.Drawing.Font("MV Boli", 9F);
             this.patientname.ForeColor = System.Drawing.Color.White;
             this.patientname.Location = new System.Drawing.Point(156, 109);
             this.patientname.Name = "patientname";
             this.patientname.Size = new System.Drawing.Size(200, 27);
-=======
-            this.patientname.Location = new System.Drawing.Point(110, 104);
-            this.patientname.Name = "patientname";
-            this.patientname.Size = new System.Drawing.Size(100, 20);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.patientname.TabIndex = 35;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-<<<<<<< HEAD
             this.label1.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(75, 106);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 21);
-=======
-            this.label1.Location = new System.Drawing.Point(33, 107);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 13);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.label1.TabIndex = 34;
             this.label1.Text = "Name :";
             // 
             // add
             // 
-<<<<<<< HEAD
             this.add.BackColor = System.Drawing.Color.Black;
             this.add.FlatAppearance.BorderSize = 2;
             this.add.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
@@ -369,19 +254,10 @@
             this.add.TabIndex = 52;
             this.add.Text = "ADD";
             this.add.UseVisualStyleBackColor = false;
-=======
-            this.add.Location = new System.Drawing.Point(156, 560);
-            this.add.Name = "add";
-            this.add.Size = new System.Drawing.Size(75, 23);
-            this.add.TabIndex = 52;
-            this.add.Text = "ADD";
-            this.add.UseVisualStyleBackColor = true;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.add.Click += new System.EventHandler(this.add_Click);
             // 
             // delete
             // 
-<<<<<<< HEAD
             this.delete.BackColor = System.Drawing.Color.Black;
             this.delete.FlatAppearance.BorderSize = 2;
             this.delete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
@@ -394,19 +270,10 @@
             this.delete.TabIndex = 53;
             this.delete.Text = "DELETE";
             this.delete.UseVisualStyleBackColor = false;
-=======
-            this.delete.Location = new System.Drawing.Point(410, 560);
-            this.delete.Name = "delete";
-            this.delete.Size = new System.Drawing.Size(75, 23);
-            this.delete.TabIndex = 53;
-            this.delete.Text = "DELETE";
-            this.delete.UseVisualStyleBackColor = true;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.delete.Click += new System.EventHandler(this.delete_Click);
             // 
             // update
             // 
-<<<<<<< HEAD
             this.update.BackColor = System.Drawing.Color.Black;
             this.update.FlatAppearance.BorderSize = 2;
             this.update.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
@@ -419,19 +286,10 @@
             this.update.TabIndex = 54;
             this.update.Text = "UPDATE";
             this.update.UseVisualStyleBackColor = false;
-=======
-            this.update.Location = new System.Drawing.Point(284, 560);
-            this.update.Name = "update";
-            this.update.Size = new System.Drawing.Size(75, 23);
-            this.update.TabIndex = 54;
-            this.update.Text = "UPDATE";
-            this.update.UseVisualStyleBackColor = true;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.update.Click += new System.EventHandler(this.update_Click);
             // 
             // button1
             // 
-<<<<<<< HEAD
             this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.FlatAppearance.BorderSize = 2;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
@@ -465,44 +323,13 @@
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
-=======
-            this.button1.Location = new System.Drawing.Point(536, 560);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(153, 23);
-            this.button1.TabIndex = 55;
-            this.button1.Text = "View Patient Diseases";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(730, 560);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(153, 23);
-            this.button2.TabIndex = 56;
-            this.button2.Text = "View Appointments";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(919, 560);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(153, 23);
-            this.button3.TabIndex = 57;
-            this.button3.Text = "Delete Appointments";
-            this.button3.UseVisualStyleBackColor = true;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // adminviewpatients
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1100, 544);
-=======
-            this.ClientSize = new System.Drawing.Size(1196, 626);
-            this.Controls.Add(this.button3);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.update);
@@ -528,10 +355,7 @@
             this.Name = "adminviewpatients";
             this.Text = "adminviewpatients";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
-=======
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -561,10 +385,6 @@
         private System.Windows.Forms.Button update;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-<<<<<<< HEAD
         private System.Windows.Forms.ErrorProvider errorProvider1;
-=======
-        private System.Windows.Forms.Button button3;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     }
 }

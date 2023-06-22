@@ -49,7 +49,6 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.address = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-<<<<<<< HEAD
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -63,21 +62,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-=======
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.SuspendLayout();
             // 
             // button2
             // 
-<<<<<<< HEAD
             this.button2.FlatAppearance.BorderSize = 2;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("MV Boli", 14F, System.Drawing.FontStyle.Bold);
             this.button2.Location = new System.Drawing.Point(591, 307);
-=======
-            this.button2.Location = new System.Drawing.Point(447, 307);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(98, 34);
             this.button2.TabIndex = 27;
@@ -108,15 +101,11 @@
             // 
             // button1
             // 
-<<<<<<< HEAD
             this.button1.FlatAppearance.BorderSize = 2;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("MV Boli", 14F, System.Drawing.FontStyle.Bold);
             this.button1.Location = new System.Drawing.Point(428, 307);
-=======
-            this.button1.Location = new System.Drawing.Point(299, 307);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(111, 34);
             this.button1.TabIndex = 24;
@@ -136,22 +125,17 @@
             // 
             // contactno
             // 
-<<<<<<< HEAD
             this.contactno.BackColor = System.Drawing.Color.Black;
             this.contactno.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.contactno.Font = new System.Drawing.Font("MV Boli", 9F);
             this.contactno.ForeColor = System.Drawing.Color.White;
             this.contactno.Location = new System.Drawing.Point(503, 237);
-=======
-            this.contactno.Location = new System.Drawing.Point(274, 246);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.contactno.Name = "contactno";
             this.contactno.Size = new System.Drawing.Size(100, 20);
             this.contactno.TabIndex = 22;
             // 
             // email
             // 
-<<<<<<< HEAD
             this.email.BackColor = System.Drawing.Color.Black;
             this.email.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.email.Font = new System.Drawing.Font("MV Boli", 9F);
@@ -161,12 +145,6 @@
             this.email.Size = new System.Drawing.Size(100, 20);
             this.email.TabIndex = 21;
             this.email.Leave += new System.EventHandler(this.email_Leave);
-=======
-            this.email.Location = new System.Drawing.Point(274, 203);
-            this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(100, 20);
-            this.email.TabIndex = 21;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // label4
             // 
@@ -180,7 +158,6 @@
             // 
             // confirmpassword
             // 
-<<<<<<< HEAD
             this.confirmpassword.BackColor = System.Drawing.Color.Black;
             this.confirmpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.confirmpassword.Font = new System.Drawing.Font("MV Boli", 9F);
@@ -190,12 +167,6 @@
             this.confirmpassword.Size = new System.Drawing.Size(100, 20);
             this.confirmpassword.TabIndex = 19;
             this.confirmpassword.UseSystemPasswordChar = true;
-=======
-            this.confirmpassword.Location = new System.Drawing.Point(274, 156);
-            this.confirmpassword.Name = "confirmpassword";
-            this.confirmpassword.Size = new System.Drawing.Size(100, 20);
-            this.confirmpassword.TabIndex = 19;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // label3
             // 
@@ -209,7 +180,6 @@
             // 
             // patientpassword
             // 
-<<<<<<< HEAD
             this.patientpassword.BackColor = System.Drawing.Color.Black;
             this.patientpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.patientpassword.Font = new System.Drawing.Font("MV Boli", 9F);
@@ -219,12 +189,6 @@
             this.patientpassword.Size = new System.Drawing.Size(100, 20);
             this.patientpassword.TabIndex = 17;
             this.patientpassword.UseSystemPasswordChar = true;
-=======
-            this.patientpassword.Location = new System.Drawing.Point(274, 113);
-            this.patientpassword.Name = "patientpassword";
-            this.patientpassword.Size = new System.Drawing.Size(100, 20);
-            this.patientpassword.TabIndex = 17;
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // label2
             // 
@@ -238,15 +202,11 @@
             // 
             // patientname
             // 
-<<<<<<< HEAD
             this.patientname.BackColor = System.Drawing.Color.Black;
             this.patientname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.patientname.Font = new System.Drawing.Font("MV Boli", 9F);
             this.patientname.ForeColor = System.Drawing.SystemColors.Window;
             this.patientname.Location = new System.Drawing.Point(503, 79);
-=======
-            this.patientname.Location = new System.Drawing.Point(274, 66);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.patientname.Name = "patientname";
             this.patientname.Size = new System.Drawing.Size(100, 20);
             this.patientname.TabIndex = 15;
@@ -264,72 +224,46 @@
             // label
             // 
             this.label.AutoSize = true;
-<<<<<<< HEAD
             this.label.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label.Location = new System.Drawing.Point(677, 33);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(84, 21);
-=======
-            this.label.Location = new System.Drawing.Point(447, 36);
-            this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(48, 13);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.label.TabIndex = 28;
             this.label.Text = "Gender :";
             // 
             // genderbox
             // 
-<<<<<<< HEAD
             this.genderbox.BackColor = System.Drawing.Color.Black;
             this.genderbox.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.genderbox.ForeColor = System.Drawing.Color.White;
-=======
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.genderbox.FormattingEnabled = true;
             this.genderbox.Items.AddRange(new object[] {
             "Male",
             "Female"});
-<<<<<<< HEAD
             this.genderbox.Location = new System.Drawing.Point(767, 29);
             this.genderbox.Name = "genderbox";
             this.genderbox.Size = new System.Drawing.Size(200, 25);
-=======
-            this.genderbox.Location = new System.Drawing.Point(511, 28);
-            this.genderbox.Name = "genderbox";
-            this.genderbox.Size = new System.Drawing.Size(121, 21);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.genderbox.TabIndex = 29;
             // 
             // Dateofbirth
             // 
             this.Dateofbirth.AutoSize = true;
-<<<<<<< HEAD
             this.Dateofbirth.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold);
             this.Dateofbirth.Location = new System.Drawing.Point(616, 79);
             this.Dateofbirth.Name = "Dateofbirth";
             this.Dateofbirth.Size = new System.Drawing.Size(145, 21);
-=======
-            this.Dateofbirth.Location = new System.Drawing.Point(421, 66);
-            this.Dateofbirth.Name = "Dateofbirth";
-            this.Dateofbirth.Size = new System.Drawing.Size(74, 13);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.Dateofbirth.TabIndex = 30;
             this.Dateofbirth.Text = "Date Of Birth :";
             // 
             // dateTimePicker1
             // 
-<<<<<<< HEAD
             this.dateTimePicker1.Location = new System.Drawing.Point(767, 80);
-=======
-            this.dateTimePicker1.Location = new System.Drawing.Point(511, 61);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 31;
             // 
             // address
             // 
-<<<<<<< HEAD
             this.address.BackColor = System.Drawing.Color.Black;
             this.address.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.address.ForeColor = System.Drawing.Color.White;
@@ -337,18 +271,11 @@
             this.address.Multiline = true;
             this.address.Name = "address";
             this.address.Size = new System.Drawing.Size(200, 83);
-=======
-            this.address.Location = new System.Drawing.Point(511, 113);
-            this.address.Multiline = true;
-            this.address.Name = "address";
-            this.address.Size = new System.Drawing.Size(287, 52);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.address.TabIndex = 33;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-<<<<<<< HEAD
             this.label7.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold);
             this.label7.Location = new System.Drawing.Point(665, 159);
             this.label7.Name = "label7";
@@ -438,19 +365,10 @@
             this.panel7.Size = new System.Drawing.Size(100, 1);
             this.panel7.TabIndex = 36;
             // 
-=======
-            this.label7.Location = new System.Drawing.Point(444, 120);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 13);
-            this.label7.TabIndex = 32;
-            this.label7.Text = "Address :";
-            // 
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // patientsignup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(979, 406);
             this.Controls.Add(this.panel7);
@@ -460,9 +378,6 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-=======
-            this.ClientSize = new System.Drawing.Size(820, 450);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.Controls.Add(this.address);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dateTimePicker1);
@@ -518,7 +433,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox address;
         private System.Windows.Forms.Label label7;
-<<<<<<< HEAD
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -529,7 +443,5 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
-=======
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     }
 }

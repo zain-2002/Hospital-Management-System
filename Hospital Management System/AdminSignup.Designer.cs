@@ -45,10 +45,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-<<<<<<< HEAD
-=======
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -58,7 +54,6 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-<<<<<<< HEAD
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -77,13 +72,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-=======
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.SuspendLayout();
             // 
             // label1
@@ -92,11 +80,7 @@
             this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(339, 89);
-=======
-            this.label1.Location = new System.Drawing.Point(339, 84);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 21);
             this.label1.TabIndex = 0;
@@ -182,7 +166,6 @@
             // 
             // email
             // 
-<<<<<<< HEAD
             this.email.BackColor = System.Drawing.Color.Black;
             this.email.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.email.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -194,17 +177,6 @@
             this.email.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             this.email.Leave += new System.EventHandler(this.email_Leave);
             this.email.MouseLeave += new System.EventHandler(this.email_MouseLeave);
-=======
-            this.textBox4.BackColor = System.Drawing.Color.Black;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.White;
-            this.textBox4.Location = new System.Drawing.Point(490, 212);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(156, 18);
-            this.textBox4.TabIndex = 7;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // 
             // textBox5
             // 
@@ -308,19 +280,6 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "HOSPITAL NAME";
             // 
-<<<<<<< HEAD
-=======
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::Hospital_Management_System.Properties.Resources.img;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(30, 84);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(198, 193);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
@@ -396,7 +355,6 @@
             this.panel10.Size = new System.Drawing.Size(156, 1);
             this.panel10.TabIndex = 16;
             // 
-<<<<<<< HEAD
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
@@ -462,8 +420,6 @@
             this.pictureBox6.TabIndex = 23;
             this.pictureBox6.TabStop = false;
             // 
-=======
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             // AdminSignup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -471,14 +427,11 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(721, 378);
-<<<<<<< HEAD
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-=======
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel8);
@@ -504,7 +457,6 @@
             this.Text = "Signup";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-<<<<<<< HEAD
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
@@ -515,12 +467,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-=======
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -554,14 +500,11 @@
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel10;
-<<<<<<< HEAD
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
-=======
->>>>>>> 6ad67cd0fcf0d6f2ac968f817693bca97099a2af
     }
 }
