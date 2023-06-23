@@ -49,5 +49,15 @@ namespace Hospital_Management_System
             this.Hide();
             mf.Show();  
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void doctor_login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
